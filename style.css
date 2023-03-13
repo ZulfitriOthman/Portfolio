@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(107, 136, 161);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul,
+li {
+    list-style: none;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    float: left;
+}
+
+nav {
+    margin: auto;
+    width: 1000px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bgcolor {
+    background-color: rgb(158, 167, 172);
+    width: 1000px;
+    border-radius: 10px;
+}
+
+a.hover {
+    background-color: aliceblue;
+    transition: 2s;
+    font-size: 30px;
+}
+
+.leftsection {
+    text-align: center;
+    float: left;
+    width: 550px;
+    height: 300px;
+    margin: 5px;
+    padding: 5px;
+    background-color: black;
+    border-radius: 10px;
+    position: relative;
+}
+
+.leftinner {
+    background-color: azure;
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
